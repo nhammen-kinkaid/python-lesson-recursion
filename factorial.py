@@ -4,4 +4,5 @@ def factorial(n):
   result = factorial(n-1) * n
   return result
 
-factorial(4)
+value = factorial(4)
+print("4 factorial is", value)
